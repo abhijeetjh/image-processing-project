@@ -4,7 +4,7 @@ import numpy as np
 from PIL import Image
 import io
 
-st.set_page_config(page_title="Image Processing & Pattern Analysis", layout="centered")
+st.set_page_config(page_title="Image Processing & Pattern Analysis")
 st.title("🧠 Image Processing & Pattern Analysis")
 
 uploaded_file = st.file_uploader("Upload an Image", type=["jpg", "jpeg", "png"])
